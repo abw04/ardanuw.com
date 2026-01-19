@@ -22,6 +22,6 @@ Figma: <https://www.figma.com/design/EoGJPjO8y3sO3r2Ubddg0i/ardanuw.com?m=auto&t
 
 ## Preview
 
-![Home](images/Home.jpg)
+![Home](images/home.jpg)
 
-![Connect](images/Connect.jpg)
+![Connect](images/connect.jpg)
