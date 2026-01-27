@@ -1,12 +1,16 @@
+body{
+    margin: 0 auto;
+}
+
 header {
   font-family: "Inter", sans-serif;
-  margin: 0 auto;
-  max-width: 50em;
+  margin: auto;
+  max-width: 40em;
 }
 
 main {
   font-family: "Inter", sans-serif;
-  margin: 0 auto;
+  margin: auto;
   max-width: 50em;
 }
 
@@ -21,23 +25,27 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   max-width: none;
-  border-width: 2px;
   margin: 0 auto;
   max-width: 50em;
+  font-family: "Inter", sans-serif;
 }
 
 .nav_title {
   color: white;
   font-size: 24px;
   text-decoration: none;
+  margin:8px
 }
 
 .nav_link {
   color: white;
   font-size: 20px;
   text-decoration: none;
+  margin: 8px;
+  display: flex;
+  align-items: center;
 }
 
 .hero {
@@ -54,13 +62,13 @@ nav {
   font-size: 24px;
   justify-content: space-around;
   column-gap: 20px;
-  border-bottom: 1px solid black;
   padding-bottom: 10px;
   text-align: justify;
 }
 
 .story {
   border-bottom: 1px solid black;
+  border-top: 1px solid black;
   padding-bottom: 10px;
   text-align: justify;
 }
@@ -73,12 +81,17 @@ nav {
  background-color: #d9d9d9;
  display: flex;
  align-items: center;
+ gap: 12px
 }
 
 .story_points {
   display: flex;
   flex-direction: column;
   text-align: justify;
+}
+
+.story_points h2 {
+  margin-bottom: 0;
 }
 
 .experience {
@@ -97,25 +110,58 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 20px;
 }
 
 .footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
+
+.footer_link{
+margin: 12px;
+display: flex;
+align-items: center;
+}
+
 
 .form_connect {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
+  gap: 12px;
 }
+
+.form_greeting{
+    flex:1
+}
+
+.form_greeting h1 {
+  margin-bottom: 0;
+}
+
+.form_greeting p {
+  margin-top: 6px;
+}
+
+.form{
+  margin-top: 30px;
+  margin-right: 8px;
+  padding-right: 0;
+  max-width: 400px;
+  flex: 2;
+}
+
+label {display: block;}
 
 .button{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10px;
   padding-bottom: 20px;
   border-bottom: 1px solid black;
 }
