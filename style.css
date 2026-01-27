@@ -10,13 +10,22 @@ main {
   max-width: 50em;
 }
 
+footer {
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
+  max-width: 50em;
+}
+
 nav {
-  background-color: black;
+  background-color: #342f2f;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   max-width: none;
+  border-width: 2px;
+  margin: 0 auto;
+  max-width: 50em;
 }
 
 .nav_title {
@@ -35,6 +44,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20px;
 }
 
 .hero_content {
@@ -44,4 +54,79 @@ nav {
   font-size: 24px;
   justify-content: space-around;
   column-gap: 20px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.story {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.story_examples {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding-left: 5px;
+ border-radius: 24px; 
+ background-color: #d9d9d9;
+ display: flex;
+ align-items: center;
+}
+
+.story_points {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.experience {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.connect_text {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.connect_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.form_connect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.button:hover {
+  opacity: 0.7;
+  transition: color 0.5s;
+}
+
+.social{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

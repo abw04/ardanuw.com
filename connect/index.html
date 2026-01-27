@@ -7,40 +7,32 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <nav>
-      <a href="/"><h2>Ardanu Wicaksono</h2></a>
-
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/connect">Connect</a>
-        </li>
-      </ul>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="http://github.com/abw04"
-        ><img src="/images/github.svg" width="49" />
-      </a>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.linkedin.com/in/ardanuw/"
-        ><img src="/images/linkedin.svg" width="49" />
-      </a>
-    </nav>
-
-    <header>
-      <h1>Let's Connect and Collaborate</h1>
-    </header>
+      <nav>
+        <a class="nav_title" href="/">Ardanu Wicaksono</a>
+        <a class="nav_link" href="/">Home</a>
+        <a class="nav_link" href="/connect">Connect</a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="http://github.com/abw04"
+          ><img src="/images/github.svg" width="30" />
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/ardanuw/"
+          ><img src="/images/linkedin.svg" width="30" />
+        </a>
+      </nav>
     <main>
-      <section>
-        <div>
-          <p>Kindly give your details on the following form</p>
-        </div>
-        <form>
+      <section class="form_connect">
+        <section class="form_greeting">
+          <h1>Let's Connect and Collaborate</h1>
+          <div>
+            <p>Kindly give your details on the following form</p>
+          </div>
+        </section>
+        <form class="form">
           <div>
             <label for="name">Name</label>
             <input type="text" name="name" />
@@ -53,30 +45,33 @@
             <label for="message">Brief Message</label>
             <input type="text" name="message" />
           </div>
-          <div>
-            <button type="submit">Send Message</button>
-          </div>
         </form>
       </section>
 
-      <section>
+      <div class="button">
+        <button type="submit">Send Message</button>
+      </div>
+
+      <section class="social">
         <h2>Let's Connect on Social</h2>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="http://github.com/abw04"
-          ><img src="/images/github.svg" width="136" />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/ardanuw/"
-          ><img src="/images/linkedin.svg" width="136" />
-        </a>
+        <div class="social_link">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="http://github.com/abw04"
+            ><img src="/images/github_black.png" width="66" />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/ardanuw/"
+            ><img src="/images/linkedin_black.png" width="66" />
+          </a>
+        </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <p>© 2026 Ardanu Wicaksono</p>
     </footer>
   </body>
