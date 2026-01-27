@@ -1,21 +1,26 @@
-body{
-    margin: 0 auto;
+body {
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+a,
+h1,
+h2,
+h3 {
+  color: hsl(98, 80%, 32%);
 }
 
 header {
-  font-family: "Inter", sans-serif;
-  margin: auto;
-  max-width: 40em;
+  margin: 0 auto;
+  max-width: 50em;
 }
 
 main {
-  font-family: "Inter", sans-serif;
-  margin: auto;
+  margin: 0 auto;
   max-width: 50em;
 }
 
 footer {
-  font-family: "Inter", sans-serif;
   margin: 0 auto;
   max-width: 50em;
 }
@@ -32,14 +37,14 @@ nav {
   font-family: "Inter", sans-serif;
 }
 
-.nav_title {
+.nav-title {
   color: white;
   font-size: 24px;
   text-decoration: none;
-  margin:8px
+  margin: 8px;
 }
 
-.nav_link {
+.nav-link {
   color: white;
   font-size: 20px;
   text-decoration: none;
@@ -63,48 +68,43 @@ nav {
   justify-content: space-around;
   column-gap: 20px;
   padding-bottom: 10px;
-  text-align: justify;
 }
 
 .story {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   padding-bottom: 10px;
-  text-align: justify;
 }
 
-.story_examples {
+.story_example {
   border: 1px solid black;
   margin-bottom: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
- border-radius: 24px; 
- background-color: #d9d9d9;
- display: flex;
- align-items: center;
- gap: 12px
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 24px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
-.story_points {
+.story_point {
   display: flex;
   flex-direction: column;
-  text-align: justify;
 }
 
-.story_points h2 {
+.story_point h2 {
   margin-bottom: 0;
 }
 
 .experience {
   border-bottom: 1px solid black;
   padding-bottom: 10px;
-  text-align: justify;
 }
 
 .connect_text {
   display: flex;
   flex-direction: column;
-  text-align: justify;
 }
 
 .connect_content {
@@ -121,14 +121,19 @@ nav {
   justify-content: space-between;
 }
 
-.footer_link{
-margin: 12px;
-display: flex;
-align-items: center;
+.footer_link {
+  margin: 12px;
+  display: flex;
+  align-items: center;
 }
 
+.connect-header {
+  display: flex;
+  gap: 20px;
+  padding: 50px 0;
+}
 
-.form_connect {
+.connect-section {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -136,35 +141,44 @@ align-items: center;
   gap: 12px;
 }
 
-.form_greeting{
-    flex:1
+.greeting {
+  flex: 1;
 }
 
-.form_greeting h1 {
+.greeting h1 {
   margin-bottom: 0;
 }
 
-.form_greeting p {
+.greeting p {
   margin-top: 6px;
 }
 
-.form{
-  margin-top: 30px;
-  margin-right: 8px;
-  padding-right: 0;
-  max-width: 400px;
-  flex: 2;
-}
-
-label {display: block;}
-
-.button{
+.contact-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid black;
+  gap: 10px;
+}
+
+.contact-form label {
+  display: block;
+}
+
+.contact-form .form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact-form .form-field input {
+  padding: 3px 4px;
+}
+
+.button {
+  padding: 6px 10px;
+  background: hsl(98, 80%, 32%);
+  border: 0;
+  border-radius: 2px;
+  color: hsl(98, 80%, 95%);
 }
 
 .button:hover {
@@ -172,7 +186,7 @@ label {display: block;}
   transition: color 0.5s;
 }
 
-.social{
+.social {
   display: flex;
   flex-direction: column;
   align-items: center;

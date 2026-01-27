@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -8,21 +8,21 @@
   </head>
   <body>
     <nav>
-      <div class="nav_title">
-        <a class="nav_title" href="/">Ardanu Wicaksono</a>
+      <div class="nav-title">
+        <a class="nav-title" href="/">Ardanu Wicaksono</a>
       </div>
-      <div class="nav_link">
-        <a class="nav_link" href="/">Home</a>
-        <a class="nav_link" href="/connect">Connect</a>
+      <div class="nav-link">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/connect">Connect</a>
         <a
-          class="nav_link"
+          class="nav-link"
           target="_blank"
           rel="noopener noreferrer"
           href="http://github.com/abw04"
           ><img src="/images/github.svg" width="30" />
         </a>
         <a
-          class="nav_link"
+          class="nav-link"
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/ardanuw/"
@@ -30,33 +30,37 @@
         </a>
       </div>
     </nav>
+
     <main>
-      <section class="form_connect">
-        <section class="form_greeting">
+      <header class="connect-header">
+        <section class="greeting">
           <h1>Let's Connect and Collaborate</h1>
           <div>
             <p>Kindly give your details on the form</p>
           </div>
         </section>
-        <form class="form">
-          <div>
-            <label for="name">Name</label>
-            <input type="text" name="name" />
-          </div>
-          <div>
-            <label for="email">Email</label>
-            <input type="email" name="email" />
-          </div>
-          <div>
-            <label for="message">Brief Message</label>
-            <input type="text" name="message" />
-          </div>
-        </form>
-      </section>
 
-      <div class="button">
-        <button type="submit">Send Message</button>
-      </div>
+        <section class="connect-form-section">
+          <form class="contact-form">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" />
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+
+            <div class="form-field">
+              <label for="message">Brief Message</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+
+            <button class="button" type="submit">Send Message</button>
+          </form>
+        </section>
+      </header>
 
       <section class="social">
         <h2>Let's Connect on Social</h2>
