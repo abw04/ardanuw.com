@@ -3,7 +3,9 @@ body {
   margin: 0 auto;
 }
 
-a, h1, h2 {
+a,
+h1,
+h2 {
   color: hsl(98, 80%, 22%);
 }
 
@@ -99,18 +101,20 @@ nav {
   padding-bottom: 10px;
 }
 
-.connect-text {
+.closing-text {
   display: flex;
   flex-direction: column;
   margin: 0px;
-
 }
 
-.connect-text a {
+.closing-text a {
   text-decoration: none;
   font-weight: bold;
 }
 
+.closing-text p {
+  margin-top: 0px;
+}
 
 .footer {
   display: flex;
