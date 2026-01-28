@@ -1,27 +1,29 @@
-body{
-    margin: 0 auto;
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
+}
+
+a, h1, h2 {
+  color: hsl(98, 80%, 22%);
 }
 
 header {
-  font-family: "Inter", sans-serif;
   margin: auto;
   max-width: 40em;
 }
 
 main {
-  font-family: "Inter", sans-serif;
   margin: auto;
   max-width: 50em;
 }
 
 footer {
-  font-family: "Inter", sans-serif;
   margin: 0 auto;
   max-width: 50em;
 }
 
 nav {
-  background-color: #342f2f;
+  background-color: hsl(98, 80%, 12%);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -32,14 +34,14 @@ nav {
   font-family: "Inter", sans-serif;
 }
 
-.nav_title {
+.nav-title {
   color: white;
   font-size: 24px;
   text-decoration: none;
-  margin:8px
+  margin: 8px;
 }
 
-.nav_link {
+.nav-link {
   color: white;
   font-size: 20px;
   text-decoration: none;
@@ -55,7 +57,7 @@ nav {
   margin-top: 20px;
 }
 
-.hero_content {
+.hero-content {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -63,57 +65,52 @@ nav {
   justify-content: space-around;
   column-gap: 20px;
   padding-bottom: 10px;
-  text-align: justify;
 }
 
 .story {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   padding-bottom: 10px;
-  text-align: justify;
 }
 
-.story_examples {
+.story-example {
   border: 1px solid black;
   margin-bottom: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
- border-radius: 24px; 
- background-color: #d9d9d9;
- display: flex;
- align-items: center;
- gap: 12px
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 24px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
-.story_points {
+.story-point {
   display: flex;
   flex-direction: column;
-  text-align: justify;
 }
 
-.story_points h2 {
+.story-point h2 {
   margin-bottom: 0;
 }
 
-.experience {
+.experiences {
   border-bottom: 1px solid black;
   padding-bottom: 10px;
-  text-align: justify;
 }
 
-.connect_text {
+.connect-text {
   display: flex;
   flex-direction: column;
-  text-align: justify;
+  margin: 0px;
+
 }
 
-.connect_content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 20px;
+.connect-text a {
+  text-decoration: none;
+  font-weight: bold;
 }
+
 
 .footer {
   display: flex;
@@ -121,50 +118,56 @@ nav {
   justify-content: space-between;
 }
 
-.footer_link{
-margin: 12px;
-display: flex;
-align-items: center;
+.footer-link {
+  margin: 12px;
+  display: flex;
+  align-items: center;
 }
 
-
-.form_connect {
+.connect-section {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   gap: 12px;
+  border-bottom: 1px solid black;
 }
 
-.form_greeting{
-    flex:1
+.connect-greeting {
+  flex: 1;
 }
 
-.form_greeting h1 {
+.form-greeting h1 {
   margin-bottom: 0;
 }
 
-.form_greeting p {
+.form-greeting p {
   margin-top: 6px;
 }
 
-.form{
+.form {
   margin-top: 30px;
   margin-right: 8px;
   padding-right: 0;
-  max-width: 400px;
-  flex: 2;
+  flex: 1;
 }
 
-label {display: block;}
+.form label {
+  display: block;
+}
 
-.button{
+.form .form-field {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.form .form-field input {
+  padding: 3px 4px;
+}
+
+.button {
   padding-top: 10px;
   padding-bottom: 20px;
-  border-bottom: 1px solid black;
 }
 
 .button:hover {
@@ -172,7 +175,7 @@ label {display: block;}
   transition: color 0.5s;
 }
 
-.social{
+.social {
   display: flex;
   flex-direction: column;
   align-items: center;

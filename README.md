@@ -6,7 +6,9 @@ This website is for getting people to know Ardanu professionally, to help others
 
 ## Link
 
-Link (on progress) is at [ardanuw.com](ardanuw.com)
+Link (on progress) is at [ardanuw.com](https://ardanuw.com)
+
+Backup link at <https://abw-web.netlify.app>
 
 Figma: <https://www.figma.com/design/EoGJPjO8y3sO3r2Ubddg0i/ardanuw.com?m=auto&t=2VLmNFWniSdRzYVO-6>
 
