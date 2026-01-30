@@ -3,26 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Ardanu Bagas Wicaksono - Product Manager and Tech Builder</title>
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <nav class="bg-color">
-      <div class="nav-title">
-        <a class="nav-title" href="/">Ardanu Wicaksono</a>
+    <nav>
+      <div class="m-4 no-underline">
+        <a class="text-white text-2xl m-[8] no-underline" href="/">Ardanu Wicaksono</a>
       </div>
-      <div class="nav-link">
-        <a class="nav-link" href="/Tailwind">Home</a>
-        <a class="nav-link" href="/connect">Connect</a>
+      <div class="flex">
+        <a class="text-white text-xl items-center m-2" href="/tailwind">Home</a>
+        <a class="text-white text-xl items-center m-2" href="/connect">Connect</a>
         <a
-          class="nav-link"
+          class="items-center m-2"
           target="_blank"
           rel="noopener noreferrer"
           href="http://github.com/abw04"
           ><img src="/images/github.svg" width="30" />
         </a>
         <a
-          class="nav-link"
+          class="items-center m-2"
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/ardanuw/"
@@ -30,9 +31,9 @@
         </a>
       </div>
     </nav>
-    <header class="hero">
-      <h1>Hi, I'm Ardanu Wicaksono</h1>
-      <div class="hero-content">
+    <header class="flex-column">
+      <h1 class="mt-7 items-center text-center text-3xl font-bold">Hi, I'm Ardanu Wicaksono</h1>
+      <div class="flex items-center my-6 text-2xl gap-5  pb-3">
         <img src="/images/ardanu.jpg" width="120" />
         <p>
           Product Manager and Tech Builder with 5+ years of experience based in
