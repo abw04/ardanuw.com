@@ -27,13 +27,11 @@ footer {
 nav {
   background-color: hsl(98, 80%, 12%);
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   max-width: none;
   margin: 0 auto;
   max-width: 50em;
-  font-family: "Inter", sans-serif;
 }
 
 .nav-title {
