@@ -6,7 +6,7 @@ This website is for getting people to know Ardanu professionally, to help others
 
 ## Link
 
-Link (on progress) is at [ardanuw.com](https://ardanuw.com)
+Link is at [ardanuw.com](https://ardanuw.com)
 
 Backup link at <https://abw-web.netlify.app>
 
