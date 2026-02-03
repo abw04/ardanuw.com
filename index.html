@@ -3,26 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Ardanu Bagas Wicaksono - Product Manager and Tech Builder</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <style type="text/css">
+      @theme {
+        --font-sans: InterVariable, sans-serif;
+        --font-sans--font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+      }
+    </style>
   </head>
-  <body>
-    <nav>
-      <div class="nav-title">
-        <a class="nav-title" href="/">Ardanu Wicaksono</a>
+
+  <body class="font-sans, sans-serif max-w-3xl m-auto">
+    <nav class="bg-green-950 flex justify-between items-center">
+      <div class="m-4 no-underline">
+        <a class="text-white text-2xl m-[8] no-underline" href="/"
+          >Ardanu Wicaksono</a
+        >
       </div>
-      <div class="nav-link">
-        <a class="nav-link" href="/Tailwind">Home</a>
-        <a class="nav-link" href="/connect">Connect</a>
+      <div class="flex">
+        <a class="text-white text-xl items-center m-2" href="/">Home</a>
+        <a class="text-white text-xl items-center m-2" href="/connect"
+          >Connect</a
+        >
         <a
-          class="nav-link"
+          class="items-center m-2"
           target="_blank"
           rel="noopener noreferrer"
           href="http://github.com/abw04"
           ><img src="/images/github.svg" width="30" />
         </a>
         <a
-          class="nav-link"
+          class="items-center m-2"
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/ardanuw/"
@@ -30,23 +42,27 @@
         </a>
       </div>
     </nav>
-    <header class="hero">
-      <h1 >Hi, I'm Ardanu Wicaksono</h1>
-      <div class="hero-content">
+    <header class="flex-column">
+      <h1
+        class="mt-5 items-center text-center text-4xl font-bold text-green-800"
+      >
+        Hi, I'm Ardanu Wicaksono
+      </h1>
+      <div class="flex items-center my-5 text-xl gap-5 pb-3">
         <img src="/images/ardanu.jpg" width="120" />
         <p>
           Product Manager and Tech Builder with 5+ years of experience based in
           Jakarta, Indonesia. Specializing in Islamic Financial Technology and
-          Tech Products Generally
+          Tech Products Generally.
         </p>
       </div>
     </header>
 
     <main>
-      <section class="story">
-        <h1>My Story</h1>
+      <section class="border-b border-t border-black pb-3">
+        <h1 class="mt-5 mb-5 text-3xl font-bold text-green-800">My Story</h1>
         <div>
-          <p>
+          <p class="mb-2">
             Based in Jakarta, I am a Product Manager dedicated to building tech
             that creates real value. I've spent the last 3+ years supervising
             product development and launching industry-first financial tools.
@@ -54,7 +70,7 @@
             Islamic Finance, I have since focused building products that impacts
             and benefits people.
           </p>
-          <p>
+          <p class="my-4">
             I love the "0-to-1" phase—figuring out how to build products that
             people actually trust and enjoy using. While my roots are in
             financial innovation, I am currently doubling down on my technical
@@ -62,20 +78,28 @@
             landscape.
           </p>
         </div>
-        <div class="story-example">
-          <div class="story-point">
-            <h2>Ensuring Business Impact</h2>
+        <div
+          class="flex border border-black items-center rounded-3xl py-2 px-3 mb-2 bg-gray-200"
+        >
+          <div>
+            <h2 class="mt-1 mb-1 text-2xl font-bold text-green-800">
+              Ensuring Business Impact
+            </h2>
             <p>
               My strongest asset is a "business-first" mindset. Coming from a
               background in economics and finance, I build solutions that ensure
               long-term viability and move the needle for the organization.
             </p>
           </div>
-          <img src="/images/gauge.png" width="120" height="90" />
+          <img src="/images/gauge.png" width="100" height="90" />
         </div>
-        <div class="story-example">
-          <div class="story-point">
-            <h2>Strategic Zero-to-One Products</h2>
+        <div
+          class="flex border border-black items-center rounded-3xl py-2 px-3 mb-2 bg-gray-200"
+        >
+          <div>
+            <h2 class="mt-1 mb-1 text-2xl font-bold text-green-800">
+              Strategic Zero-to-One Products
+            </h2>
             <p>
               Most of my career has been spent in the "blank page" phase. I
               specialize in navigating the ambiguity of early-stage products,
@@ -83,11 +107,15 @@
               operations for new ventures.
             </p>
           </div>
-          <img src="/images/solar_rocket_duotone.png" width="80" height="80" />
+          <img src="/images/solar_rocket_duotone.png" width="120" height="90" />
         </div>
-        <div class="story-example">
-          <div class="story-point">
-            <h2>Continuous Growth</h2>
+        <div
+          class="flex border border-black items-center rounded-3xl py-2 px-3 mb-2 bg-gray-200"
+        >
+          <div>
+            <h2 class="mt-1 mb-1 text-2xl font-bold text-green-800">
+              Continuous Growth
+            </h2>
             <p>
               I am a builder who always upskills. I’m currently deepening my
               technical toolkit in engineering to bridge the gap between product
@@ -95,33 +123,41 @@
               and a hands-on partner.
             </p>
           </div>
-          <img src="/images/plant.png" width="90" height="90" />
+          <img src="/images/plant.png" width="120" height="90" />
         </div>
       </section>
 
-      <section class="experiences">
-        <h2>My Experience</h2>
-        <h2>Hijra Bank</h2>
+      <section class="border-b py-4">
+        <h2 class="mt-1 mb-4 text-2xl font-bold text-green-800">
+          My Experience
+        </h2>
+        <h2 class="mt-1 mb-2 text-2xl font-bold text-green-800">Hijra Bank</h2>
         <p>
           First-time PM, boosted acquisition efficiency by increasing
           install-to-verified conversions by 50%+. Managed diverse streams
           across growth, compliance, and sustainability, exceeded performance
           expectations.
         </p>
-        <h2>Amani/Mulia Bank</h2>
+        <h2 class="mt-4 mb-2 text-2xl font-bold text-green-800">
+          Amani/Mulia Bank
+        </h2>
         <p>
           End-to-end digital banking transformation, pioneering industry-first
           products like SRIA. I balanced strategic oversight with hands-on 'vibe
           coding' for internal tools while ensuring rigorous ISO 27001
           compliance and mobile security
         </p>
-        <h2>Side Hustle (Edtech)</h2>
+        <h2 class="mt-4 mb-2 text-2xl font-bold text-green-800">
+          Side Hustle (Edtech)
+        </h2>
         <p>
           Co-founded Tawakkal Finance, an Islamic Finance education platform,
           launching education classes with overall 300+ registrants. Developed a
           profitable product based on direct research with customers.
         </p>
-        <h2>Past Projects</h2>
+        <h2 class="mt-4 mb-2 text-2xl font-bold text-green-800">
+          Past Projects
+        </h2>
         <p>
           Scaled an informal financing business to IDR 3.5B+ in disbursements
           and currently building zero-to-one core banking system. I also help
@@ -130,17 +166,22 @@
         </p>
       </section>
 
-      <section>
-        <h2>Let's Connect</h2>
-        <div class="closing-text">
-          <p>
+      <section class="mb-4">
+        <h2 class="mt-4 mb-2 text-2xl font-bold text-green-800">
+          Let's Connect
+        </h2>
+        <div>
+          <p class="mb-2">
             Currently, I'm most active on
-            <a href="https://www.linkedin.com/in/ardanuw/">Linkedin</a>, I try
-            to post routinely on whatever I am learning or any resource I found
-            helpful. Mostly relating to AI, Product Management, and Islamic
-            Finance.
+            <a
+              class="font-bold text-green-800"
+              href="https://www.linkedin.com/in/ardanuw/"
+              >Linkedin</a
+            >, I try to post routinely on whatever I am learning or any resource
+            I found helpful. Mostly relating to AI, Product Management, and
+            Islamic Finance.
           </p>
-          <p>
+          <p class="my-4">
             I am open to collaboration, opportunities, and general connections
             to those working in product, islamic finance, and discussing careers
             in general
@@ -150,9 +191,9 @@
     </main>
 
     <footer>
-      <div class="footer">
+      <div class="flex justify-between items-center">
         <p>© 2026 Ardanu Wicaksono</p>
-        <div class="footer-link">
+        <div class="flex m-3 gap-1">
           <a
             target="_blank"
             rel="noopener noreferrer"
